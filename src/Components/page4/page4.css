@@ -1,0 +1,109 @@
+.lp4{
+    height: 350px;
+    background: url("../../images/images/lp4.jpg")50% 50% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.171);
+}
+.blur{
+    border-radius: 300px;
+    height: 200px;
+   
+    margin-top: 50px !important;
+    background-color: rgba(0, 0, 0, 0.192);
+   
+    backdrop-filter: blur(3px) brightness(90%);
+   
+}
+.lp4matn{
+    width: 100%;
+    font-family: font1;
+    font-size: 35px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.lp4button{
+    
+    font-family: font1;
+    font-size: 25px;
+    margin-top: 0px;
+    line-height: 60px;
+    background-color: white;
+    color: #0A030F;
+    text-align: center;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 300px;
+    width: 45%;
+}
+
+@media only screen and (max-width: 1200px){
+    .lp4matn{
+        font-size: 30px;
+
+    }
+    .lp4button{
+        line-height: 70px;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px){
+    .lp4matn{
+        font-size: 30px;
+
+    }
+    .lp4button{
+        line-height: 70px;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .lp4matn{
+        font-size: 25px;
+
+    }
+    .lp4button{
+        line-height: 70px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .blur{
+        border-radius: 300px;
+        height: 170px;
+}
+    .lp4matn{
+        font-size: 20px;
+
+    }
+    .lp4button{
+        height: 50px;
+        line-height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+
+    .blur{
+        border-radius: 300px;
+        height: 170px;
+}
+    .lp4matn{
+        font-size: 18px;
+
+    }
+    .lp4button{
+        height: 50px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+}

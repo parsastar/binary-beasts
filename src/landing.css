@@ -1,0 +1,7 @@
+.lcolor{
+    width: 100%;
+    height: 1340px;
+    position: relative;
+    background-image: linear-gradient(white , rgb(131, 131, 131));
+    overflow:hidden;
+}

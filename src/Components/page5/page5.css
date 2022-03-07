@@ -1,0 +1,331 @@
+.lp5{
+    font-family: font1;
+    margin-top: 150px !important ;direction: rtl;
+    padding-right: 80px !important;
+    position: relative;
+
+}
+.lp5maintitle{
+   
+
+    font-size: 60px;
+    color: black;
+}
+.lp5l{
+    margin-right: 20px !important;
+    width: 290px !important;
+    height: 3px;
+    background-color: var(--c1);
+    
+}
+.lp5sectitle{
+    margin-top: 40px !important;
+    font-size: 40px;
+    color: rgb(68, 68, 68);
+}
+.lp5pic{
+    
+   position: absolute;
+   left: -0px;
+   top: 100px;
+   height: 500px !important;
+   background: url("../../images/images/lp5.jpg")50% 50% no-repeat;
+   background-size: 90%;
+   
+}
+.pl5box{
+  
+    margin-top: 30px !important;
+
+}
+.lp5mmaintitle{
+    display: inline !important;
+    width: 80% !important;
+    margin-top:3px !important;
+    font-size: 26px;
+}
+.boxI{
+    display: inline !important;
+    width: 70px !important;
+    background: url("../../images/icons/etenity.png") 50% 50% no-repeat;
+    background-size: 50px;
+   
+    height: 50px !important;
+}
+
+.boxI2{
+    display: inline !important;
+    width: 70px !important;
+    background: url("../../images/icons/tool.png") 50% 50% no-repeat;
+    background-size: 45px;
+    height: 50px !important;
+}
+
+.boxI3{
+    display: inline !important;
+    width: 70px !important;
+    background: url("../../images/icons/rest.png") 50% 50% no-repeat;
+    background-size: 50px;
+    height: 50px !important;
+}
+
+.lp5matn{
+    width: 90% !important;
+    color: rgb(63, 63, 63);
+    padding-right: 80px !important;
+  
+
+}
+
+@media only screen and (max-width: 1200px){
+    .lp5{
+        font-family: font1;
+        margin-top: 150px !important ;direction: rtl;
+        padding-right: 30px !important;
+    }
+
+.lp5mmaintitle{
+    display: inline !important;
+    width: 80% !important;
+    margin-top:3px !important;
+    font-size: 22px;
+}
+.lp5matn{
+    width: 90% !important;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+    padding-right: 80px !important;
+  
+
+}
+.box3{
+    width: 800px !important;
+}
+
+.lp5pic{
+    position: absolute;
+    top: 100px;
+    height: 500px !important;
+    background: url("../../images/images/lp5.jpg")00% 50% no-repeat;
+    background-size: 80%;
+    
+    
+ }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .lp5{
+        font-family: font1;
+        margin-top: 150px !important ;direction: rtl;
+        padding-right: 30px !important;
+    }
+
+.lp5mmaintitle{
+    display: inline !important;
+    width: 80% !important;
+    margin-top:8px !important;
+    font-size: 19px;
+}
+.lp5matn{
+    width: 90% !important;
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+    padding-right: 80px !important;
+  
+
+}
+.box1{
+  
+}
+.box2{
+    width: 400px !important;
+}
+.box3{
+    width: 90vw !important;
+}
+
+.pl5box{
+  
+    margin-top: 30px !important;
+}
+
+.lp5pic{
+    position: absolute;
+    top: 100px;
+    height: 500px !important;
+    background: url("../../images/images/lp5.jpg")40% 40% no-repeat;
+    background-size: 350px;
+    
+    
+ }
+
+ .lp5maintitle{
+   
+
+    font-size: 40px;
+    color: black;
+}
+
+.lp5l{
+    margin-right: 20px !important;
+    width: 220px !important;
+    height: 3px;
+    background-color: var(--c1);
+    
+}
+.lp5sectitle{
+    margin-top: 20px !important;
+    font-size: 25px;
+    color: rgb(68, 68, 68);
+}
+}
+
+@media only screen and (max-width: 720px){
+
+    .lp5mmaintitle{
+        display: inline !important;
+        width: 80% !important;
+        margin-top:8px !important;
+        font-size: 15px;
+    }
+    .lp5matn{
+        width: 90% !important;
+        color: rgb(63, 63, 63);
+        font-size: 10px;
+        padding-right: 50px !important;
+      
+    
+    }
+    .box1{
+        margin-top: 50px !important;
+        width: 300px !important;
+    }
+    .box2{
+        width: 90vw !important;
+    }
+
+    .lp5pic{
+        position: absolute;
+        top: 0px;
+        height: 500px !important;
+        background: url("../../images/images/lp5.jpg")40% 40% no-repeat;
+        background-size: 250px;
+        
+        
+     }
+
+.boxI1{
+    display: inline !important;
+    width: 40px !important;
+    background: url("../../images/icons/etenity.png") 50% 50% no-repeat;
+    background-size: 30px;
+   
+    height: 40px !important;
+}
+
+.boxI{
+    display: inline !important;
+    width: 40px !important;
+    background-size: 30px;
+   
+    height: 40px !important;
+}
+
+.lp5maintitle{
+   
+
+    font-size: 30px;
+    color: black;
+}
+
+.lp5l{
+    margin-right: 20px !important;
+    width: 200px !important;
+    height: 3px;
+    background-color: var(--c1);
+    
+}
+.lp5sectitle{
+    margin-top: 10px !important;
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+}
+}
+
+@media only screen and (max-width: 500px){
+    .lp5pic{
+        position: absolute;
+        top: 0px;
+        height: 500px !important;
+        background: url("../../images/images/lp5.jpg")40% 40% no-repeat;
+        background-size: 250px;
+        display: none !important;
+     }
+
+.lp5mmaintitle{
+    display: inline !important;
+    width: 100vw !important;
+    text-align: center;
+    margin-top:3px !important;
+    font-size: 20px;
+}
+.pl5box{
+
+    width: 90vw !important;
+    padding-bottom: 0px !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+}
+.boxI{
+    display: inline !important;
+    width: 70px !important;
+    margin: auto !important;
+    background-size: 50px;
+   
+    height: 50px !important;
+}
+
+.lp5matn{
+    display: inline !important;
+    width: 90vw !important;
+    text-align: center;
+    margin-top:5px !important;
+    font-size: 10px;
+    padding: 0 !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+ 
+}
+.lp5{
+    font-family: font1;
+    margin-top: 150px !important ;direction: rtl;
+    padding-right: 0 !important;
+}
+.lp5right{
+    width: 100% !important;
+    
+}
+
+.lp5maintitle{
+   
+
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+.lp5l{
+    margin: auto !important;
+    width: 200px !important;
+    height: 3px;
+    background-color: var(--c1);
+    
+}
+.lp5sectitle{
+    margin-top: 10px !important;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+}

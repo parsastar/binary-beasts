@@ -1,0 +1,310 @@
+
+.lp2{
+    font-family: font1;
+    margin-top: 150px !important ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+   
+}
+
+.lp2m1{
+    font-size: 60px;
+    color: black;
+    margin-bottom: 50px !important;
+
+}
+.lp2m2{
+    font-size: 30px;
+
+
+}
+.cards{
+    width: 90vw !important;
+   
+    padding-top: 50px !important;
+    margin:auto !important;
+    float: right;
+   
+}
+.ccard:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322);
+    transition: .5s;
+}
+.ccard{
+    font-family: font1 ;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+    float: right;
+    width: 22% !important;
+    transition: .5s;
+    font-size:22px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.198);
+}
+.card1{
+    border:1px solid transparent !important;
+    border-radius: 25px !important;
+    font-size:18px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.card2{
+    border:1px solid transparent !important;
+    border-radius: 25px !important;
+    margin-left: 3vw;
+}
+.card3{
+    border:1px solid transparent !important;
+    border-radius: 25px !important;
+    margin-left: 3vw;
+}
+.card4{
+    border:1px solid transparent !important;
+    border-radius: 25px !important;
+    margin-left: 3vw;
+    
+}
+.borderbottom1{
+    width: 70%;
+    margin: auto;
+    background-color: #bf005f;
+    height: 2px;
+    border-radius: 100px;
+}
+.borderbottom2{
+    width: 50%;
+    margin: auto;
+    background-color: #56ff56;
+    height: 2px;
+    border-radius: 100px;
+}
+.borderbottom3{
+    width: 40%;
+    margin: auto;
+    background-color: #ffd700;
+    height: 2px;
+    border-radius: 100px;
+}
+.borderbottom4{
+    width: 60%;
+    margin: auto;
+    background-color: #d60000;
+    height: 2px;
+    border-radius: 100px;
+}
+.cardImage{
+    width: 60% !important;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.bcard:hover{
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.322);
+    transition: .5s;
+}
+.bcard{
+    width: 46% !important;
+    background: url("../../images/icons/card5.png")5% 50% no-repeat;
+    background-size:45%;
+    border-radius: 30px;
+    height: 270px;
+    transition: .5s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.198);
+    margin-top: 50px;
+    margin:20px;
+    background-color: white;
+    position: relative;
+    margin:auto !important;
+    margin-bottom: 30px !important;
+}
+.card5{
+    margin-left: 30px !important;
+    background: url("../../images/icons/corona.png")5% 50% no-repeat;
+    background-size: 45%;
+    background-color: white;
+    
+}
+
+.card6{
+    margin-right: 30px !important;
+}
+.lp2 >.cards > .bcard >  .maintitle{
+    position: absolute;
+    font-size: 22px;
+    right: 20px;
+    top:20px
+}
+
+.lp2 >.cards > .bcard >  .sectitle{
+    position: absolute;
+    width: 45%;
+    font-size: 14px;
+    direction: rtl;
+    color:rgb(136, 136, 136);
+    right: 20px;
+    top:70px;
+}
+
+.lp2 >.cards > .bcard.card6 >  .botborder{
+    background-color: #577ec2;
+    width:160px;
+}
+.lp2 >.cards > .bcard >  .botborder{
+    position: absolute;
+    
+    right: 20px;
+    top:60px;
+    width:140px;
+    height: 2px;
+    background-color: #00ce00;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+
+    .cards{
+        width: 1200px !important;
+    }    
+    .lp2m1{
+        font-size: 45px;
+    
+    
+    }
+    .lp2m2{
+        font-size: 22px;
+    
+    
+    }
+    .card1{
+        font-size:13px;
+    }
+    .ccard{
+        font-size: 15px;
+    }
+    .card1{
+        font-size:11px;
+    }
+  
+.lp2 >.cards > .bcard >  .maintitle{
+        font-size: 20px;
+    }
+   
+.lp2 >.cards > .bcard > .sectitle{
+        font-size: 13px;
+    }
+
+.card5{
+    margin-left: 20px !important;
+}
+
+.card6{
+    margin-right: 20px !important;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .lp2m1{
+        font-size: 30px;
+    
+    
+    }
+    .lp2m2{
+        font-size: 13px;
+    
+    
+    }
+
+    .ccard{
+        width: 45% !important;
+        height: 170px;
+        font-size: 11px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.103);
+        margin-bottom: 20px;
+    }
+    .card1{
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .cardImage{
+    width: 45% !important;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.bcard{
+    width: 90% !important;
+    background: url("../../images/icons/card5.png")5% 50% no-repeat;
+    background-size:40%;
+    border-radius: 30px;
+    height: 160px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.103);
+    margin-top: 20px;
+    margin:20px;
+    background-color: white;
+    position: relative;
+    margin:auto !important;
+    margin-bottom: 20px !important;
+}
+
+.card5{
+    margin-left: 30px !important;
+    background: url("../../images/icons/corona.png")5% 50% no-repeat;
+    background-size: 40%;
+    background-color: white;
+    
+}
+
+.lp2 >.cards > .bcard >  .maintitle{
+    font-size: 15px;
+}
+
+.lp2 >.cards > .bcard > .sectitle{
+    font-size: 10px;
+    top:60px;
+}
+.card5{
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
+
+.card6{
+    margin: auto  !important;
+    margin-bottom: 20px !important;
+}
+
+.lp2 >.cards > .bcard >  .botborder{
+    background-color: #00ce00;
+    top: 50px;
+    width:90px;
+}
+.lp2 >.cards > .bcard.card6 >  .botborder{
+    background-color: #577ec2;
+    width:100px;
+}
+}
+
+
+@media only screen and (max-width: 400px){
+    .ccard{
+        width: 45% !important;
+        height: 160px;
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    .card1{
+        font-size: 9px;
+    }
+    .cardImage{
+    width: 45% !important;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+}
